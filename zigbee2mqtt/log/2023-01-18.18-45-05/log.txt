@@ -1,0 +1,43 @@
+info  2023-01-18 18:45:05: Logging to console and directory: '/config/zigbee2mqtt/log/2023-01-18.18-45-05' filename: log.txt
+info  2023-01-18 18:45:05: Starting Zigbee2MQTT version 1.29.2 (commit #unknown)
+info  2023-01-18 18:45:05: Starting zigbee-herdsman (0.14.83-hotfix.0)
+info  2023-01-18 18:45:11: zigbee-herdsman started (resumed)
+info  2023-01-18 18:45:11: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20220219,"transportrev":2},"type":"zStack3x0"}'
+info  2023-01-18 18:45:11: Currently 17 devices are joined:
+info  2023-01-18 18:45:11: wall-switches (0x60a423fffefbc997): TS0012 - TuYa Smart light switch - 2 gang (EndDevice)
+info  2023-01-18 18:45:11: ceilling1 (0xa4c13847a84f08cc): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: ceiling2 (0xa4c138a9717c1b2c): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: ceiling5 (0xa4c13876ed9c7d3e): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: ceiling4 (0xa4c138b35e85b287): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: ceiling6 (0xa4c1382fbff93ac4): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: ceiling3 (0xa4c13837ea4b2800): TS0505B - TuYa Zigbee RGB+CCT light (Router)
+info  2023-01-18 18:45:11: button (0x00124b0024ce5e4e): SNZB-01 - SONOFF Wireless button (EndDevice)
+info  2023-01-18 18:45:11: wifi-plug (0xcc86ecfffef3c6fc): TS011F_plug_2 - TuYa Smart plug (without power monitoring) (Router)
+info  2023-01-18 18:45:11: pir-door (0x00124b00250bf583): SNZB-03 - SONOFF Motion sensor (EndDevice)
+info  2023-01-18 18:45:11: pir-room (0x00124b0023b4d887): SNZB-03 - SONOFF Motion sensor (EndDevice)
+info  2023-01-18 18:45:11: pir-balcony (0x847127fffe21af74): TS0202 - TuYa Motion sensor (EndDevice)
+info  2023-01-18 18:45:11: toilet-presence  (0x943469fffec9539a): TS0601_smart_human_presence_sensor - TuYa Smart Human presence sensor (Router)
+info  2023-01-18 18:45:11: presence (0xa4c1388e2c730e1b): TS0601_human_presence_sensor - TuYa Human presence sensor Zigbee (Router)
+info  2023-01-18 18:45:11: curtain (0xcc86ecfffeb05501): TS0601_cover - TuYa Curtain motor/roller blind motor/window pusher/tubular motor (Router)
+info  2023-01-18 18:45:11: knob (0x04cd15fffe23ec21): ERS-10TZBVK-AA - TuYa Smart knob (EndDevice)
+info  2023-01-18 18:45:11: plug (0xcc86ecfffe4ea1cb): TS011F_plug_2 - TuYa Smart plug (without power monitoring) (Router)
+warn  2023-01-18 18:45:11: `permit_join` set to  `true` in configuration.yaml.
+warn  2023-01-18 18:45:11: Allowing new devices to join.
+warn  2023-01-18 18:45:11: Set `permit_join` to `false` once you joined all devices.
+info  2023-01-18 18:45:11: Zigbee: allowing new devices to join.
+info  2023-01-18 18:45:12: Connecting to MQTT server at mqtt://homeassistant:1883
+error 2023-01-18 18:45:13: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:13: MQTT failed to connect, exiting...
+info  2023-01-18 18:45:13: Stopping zigbee-herdsman...
+error 2023-01-18 18:45:14: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:15: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:16: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:17: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:18: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:19: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:20: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:21: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:22: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:23: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+error 2023-01-18 18:45:24: MQTT error: connect ECONNREFUSED 172.30.32.1:1883
+info  2023-01-18 18:45:25: Stopped zigbee-herdsman

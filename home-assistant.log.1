@@ -1,0 +1,86 @@
+2023-01-23 00:00:13.056 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration sp110e which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.056 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration lovelace_gen which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.060 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration spotcast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.062 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.065 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.066 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.069 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration nodered which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.071 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration alexa_media which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.072 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.075 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration webrtc which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.077 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-01-23 00:00:13.317 WARNING (MainThread) [homeassistant.components.lovelace] Lovelace is running in storage mode. Define resources via user interface
+2023-01-23 00:00:23.141 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for 5c53de3b_esphome: 404 Client Error for http+docker://localhost/v1.41/containers/addon_5c53de3b_esphome/json: Not Found ("No such container: addon_5c53de3b_esphome")
+2023-01-23 00:00:23.152 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:00:38.472 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform dlna_dmr is taking over 10 seconds.
+2023-01-23 00:00:38.475 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform dlna_dmr is taking over 10 seconds.
+2023-01-23 00:00:39.109 WARNING (zeroconf-ServiceBrowser-_googlecast._tcp-106) [pychromecast.dial] Failed to determine cast type for host <unknown> (<urlopen error [Errno 111] Connection refused>) (services:{ServiceInfo(type='mdns', data='Harman-Kardon-Enchan-5509ff52c003b69051f9022f1fd7a05d._googlecast._tcp.local.')})
+2023-01-23 00:00:51.316 ERROR (MainThread) [homeassistant.components.homekit] HomeKit 1613Cam cannot startup: entity not available: {'include_domains': [], 'exclude_domains': [], 'include_entities': ['camera.1613cam'], 'exclude_entities': [], 'exclude_entity_globs': [], 'include_entity_globs': []}
+2023-01-23 00:01:03.877 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/discovery_flow.py", line 71, in _async_start
+    await gather_with_concurrency(
+  File "/usr/src/homeassistant/homeassistant/util/async_.py", line 203, in gather_with_concurrency
+    return await gather(
+  File "/usr/src/homeassistant/homeassistant/util/async_.py", line 201, in sem_task
+    return await task
+  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 229, in async_init
+    flow, result = await task
+  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 256, in _async_init
+    result = await self._async_handle_step(flow, flow.init_step, data, init_done)
+  File "/usr/src/homeassistant/homeassistant/data_entry_flow.py", line 374, in _async_handle_step
+    result: FlowResult = await getattr(flow, method)(user_input)
+  File "/usr/src/homeassistant/homeassistant/components/netgear/config_flow.py", line 138, in async_step_ssdp
+    await self.async_set_unique_id(discovery_info.upnp[ssdp.ATTR_UPNP_SERIAL])
+KeyError: 'serialNumber'
+2023-01-23 00:05:27.476 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:10:31.476 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:15:35.626 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:20:39.649 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:25:43.625 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:30:47.530 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:35:02.402 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 1 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:02.771 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 2 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:02.775 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 3 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:02.783 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 4 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:02.795 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 5 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:02.813 WARNING (MainThread) [homeassistant.components.hue.bridge.light] Device Ceiling light 6 changed state while reported as disconnected. This might be an indicator that routing is not working for this device or the device is having connectivity issues. You can disable availability reporting for this device in the Hue options. Device details: _TZ3210_r5afgmkl - Extended color light (TS0505B) fw: 0.0.0
+2023-01-23 00:35:05.980 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:36:25.560 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_ssh: Container addon_a0d7b954_ssh is not running
+2023-01-23 00:36:28.304 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:36:49.346 WARNING (MainThread) [homeassistant.components.hassio] Could not fetch stats for a0d7b954_logviewer: Container addon_a0d7b954_logviewer is not running
+2023-01-23 00:38:52.182 ERROR (MainThread) [homeassistant.components.hassio.handler] Client error on /core/update request Server disconnected
+2023-01-23 00:38:52.193 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall update.install (c:01GQD8QZTW9YKM3YFT77HNN868): entity_id=['update.home_assistant_core_update'], backup=True, version=2023.1.6>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 303, in async_install
+    await async_update_core(self.hass, version=version, backup=backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 48, in _wrapper
+    data = await funct(*argv, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 245, in async_update_core
+    return await hassio.send_command(
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 481, in send_command
+    raise HassioAPIError()
+homeassistant.components.hassio.handler.HassioAPIError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 958, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 154, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 413, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 305, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Error updating Home Assistant Core 

@@ -1,0 +1,179 @@
+{
+    "1": {
+        "brightness": 254,
+        "state": "OFF",
+        "color_mode": "xy",
+        "color": {
+            "x": 0.3112,
+            "y": 0.5646,
+            "hue": 100,
+            "saturation": 90,
+            "h": 100,
+            "s": 90
+        },
+        "color_temp": 169
+    },
+    "0xa4c1382fbff93ac4": {
+        "color_mode": "xy",
+        "linkquality": 156,
+        "state": "OFF",
+        "brightness": 254,
+        "color": {
+            "x": 0.3112,
+            "y": 0.5646,
+            "hue": 100,
+            "saturation": 90,
+            "h": 100,
+            "s": 90
+        },
+        "color_temp": 169
+    },
+    "0xa4c13837ea4b2800": {
+        "color_mode": "xy",
+        "linkquality": 123,
+        "state": "OFF",
+        "brightness": 236,
+        "color": {
+            "x": 0.6714,
+            "y": 0.3174,
+            "hue": 3,
+            "saturation": 99,
+            "h": 3,
+            "s": 99
+        },
+        "color_temp": 234
+    },
+    "0xa4c138b35e85b287": {
+        "color_mode": "xy",
+        "linkquality": 145,
+        "state": "OFF",
+        "brightness": 254,
+        "color": {
+            "x": 0.6374,
+            "y": 0.3529,
+            "hue": 9,
+            "saturation": 100,
+            "h": 9,
+            "s": 100
+        },
+        "color_temp": 428
+    },
+    "0xa4c13876ed9c7d3e": {
+        "color_mode": "xy",
+        "linkquality": 163,
+        "state": "OFF",
+        "brightness": 254,
+        "color": {
+            "x": 0.4951,
+            "y": 0.4457,
+            "hue": 35,
+            "saturation": 95,
+            "h": 35,
+            "s": 95
+        },
+        "color_temp": 397
+    },
+    "0xa4c138a9717c1b2c": {
+        "color_mode": "xy",
+        "linkquality": 145,
+        "state": "OFF",
+        "brightness": 254,
+        "color": {
+            "x": 0.6714,
+            "y": 0.3174,
+            "hue": 3,
+            "saturation": 99,
+            "h": 3,
+            "s": 99
+        },
+        "color_temp": 234
+    },
+    "0xa4c13847a84f08cc": {
+        "color_mode": "xy",
+        "linkquality": 123,
+        "brightness": 254,
+        "state": "OFF",
+        "color_temp": 234,
+        "color": {
+            "x": 0.6714,
+            "y": 0.3174,
+            "hue": 3,
+            "saturation": 99,
+            "h": 3,
+            "s": 99
+        }
+    },
+    "0x00124b0024ce5e4e": {
+        "voltage": 2900,
+        "battery": 87.5,
+        "linkquality": 91
+    },
+    "0x60a423fffefbc997": {
+        "linkquality": 171,
+        "state_left": "OFF",
+        "state_right": "OFF"
+    },
+    "0xcc86ecfffef3c6fc": {
+        "linkquality": 211,
+        "indicator_mode": "on",
+        "state": "ON"
+    },
+    "0x00124b00250bf583": {
+        "voltage": 3000,
+        "battery": 100,
+        "linkquality": 196,
+        "occupancy": false,
+        "tamper": false,
+        "battery_low": false
+    },
+    "0x847127fffe21af74": {
+        "occupancy": true,
+        "tamper": false,
+        "battery_low": false,
+        "linkquality": 167
+    },
+    "0x00124b0023b4d887": {
+        "voltage": 2900,
+        "battery": 71,
+        "linkquality": 160,
+        "occupancy": true,
+        "tamper": false,
+        "battery_low": false
+    },
+    "0x943469fffec9539a": {
+        "target_distance": 0,
+        "presence": false,
+        "maximum_range": 6.5,
+        "radar_sensitivity": 8,
+        "minimum_range": 0.3,
+        "self_test": "check_success",
+        "detection_delay": 1,
+        "fading_time": 5,
+        "cli": " ",
+        "illuminance_lux": 5,
+        "linkquality": 116
+    },
+    "0xa4c1388e2c730e1b": {
+        "presence": true,
+        "duration_of_attendance": 4,
+        "duration_of_absence": 0,
+        "led_state": false,
+        "linkquality": 218
+    },
+    "0x04cd15fffe23ec21": {
+        "battery": 85,
+        "voltage": 2900,
+        "linkquality": 211
+    },
+    "0xcc86ecfffe4ea1cb": {
+        "indicator_mode": "on",
+        "state": "ON",
+        "linkquality": 163
+    },
+    "0xcc86ecfffeb05501": {
+        "running": false,
+        "position": 3,
+        "state": "OPEN",
+        "linkquality": 72
+    }
+}
