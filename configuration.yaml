@@ -1,0 +1,80 @@
+
+# Loads default set of integrations. Do not remove.
+homeassistant:
+  name: Elio-DelRay
+  latitude: 13.684610241171868
+  longitude: 100.60365355983672
+  elevation: 30
+  unit_system: metric
+  currency: THB
+  country: TH
+  time_zone: "Asia/Bangkok"
+  external_url: "https://www.example.com"
+  internal_url: "http://homeassistant.local:8123"
+  # allowlist_external_dirs:
+    # - "/usr/var/dumping-ground"
+    # - "/tmp"
+  # allowlist_external_urls:
+    # - "http://images.com/image1.png"
+  media_dirs:
+    media: "/media"
+    # recordings: "/mnt/recordings"
+  legacy_templates: false
+
+cloud:
+
+
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+
+# Load frontend themes from the themes fo
+frontend:
+  themes: !include_dir_merge_named themes
+  extra_module_url:
+    - /local/card-mod.js
+    - /local/hass-hue-icons.js
+lovelace:
+  resources:
+    - url: /local/template-entity-row.js
+      type: module
+    - url: /local/mushroom.js
+      type: module
+    - url: /local/banner-card/banner-card.js/banner-card/banner-card.js
+      type: module
+    - url: /local/battery-state-card/battery-state-card.js
+      type: module
+    - url: /local/button-card/button-card.js
+      type: module
+    - url: /local/circle-sensor-card/circle-sensor-card.js
+      type: module
+    - url: /local/hass-hue-icons/hass-hue-icons.js
+      type: module
+    - url: /local/lovelace-auto-entities/auto-entities.js
+      type: module
+    - url: /local/lovelace-card-mod/card-mod.js
+      type: module
+    - url: /local/lovelace-layout-card/layout-card.js
+      type: module
+    - url: /local/lovelace-mushroom/mushroom.js
+      type: module
+    - url: /local/lovelace-paper-buttons-row/paper-buttons-row.js
+      type: module
+    - url: /local/lovelace-slider-entity-row/slider-entity-row.js
+      type: module
+    - url: /local/lovelace-template-entity-row/template-entity-row.js
+      type: module
+    - url: /local/mini-media-player/mini-media-player.js
+      type: module
+    - url: /local/rgb-light-card/rgb-light-card.js
+      type: module
+    - url: /local/slider-button-card/slider-button-card.js
+      type: module
+    - url: /local/weather-card/weather-card.js
+      type: module
