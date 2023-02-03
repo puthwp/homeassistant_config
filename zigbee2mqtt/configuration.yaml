@@ -1,11 +1,12 @@
 homeassistant: true
 mqtt:
-  server: mqtt://homeassistant:1883
-  user: nodered-only
+  server: mqtt://192.168.50.50:1883
+  user: mqtt-only
   password: getgetget^^^
   keepalive: 60
   reject_unauthorized: true
   version: 5
+  topic: delz2mt
 serial:
   port: /dev/ttyUSB0
 frontend:
@@ -24,48 +25,24 @@ advanced:
     type: '5424'
   output: attribute_and_json
 devices:
-  '0x60a423fffefbc997':
-    friendly_name: wall-switches
-  '0xa4c13847a84f08cc':
-    friendly_name: ceilling1
-  '0xa4c138a9717c1b2c':
-    friendly_name: ceiling2
-  '0xa4c13876ed9c7d3e':
-    friendly_name: ceiling5
-  '0xa4c138b35e85b287':
-    friendly_name: ceiling4
-  '0xa4c1382fbff93ac4':
-    friendly_name: ceiling6
-  '0xa4c13837ea4b2800':
-    friendly_name: ceiling3
-  '0x00124b0024ce5e4e':
-    friendly_name: button
-  '0xcc86ecfffef3c6fc':
-    friendly_name: wifi-plug
-  '0x00124b00250bf583':
-    friendly_name: pir-door
-  '0x00124b0023b4d887':
-    friendly_name: pir-room
-  '0x847127fffe21af74':
-    friendly_name: pir-balcony
-  '0x943469fffec9539a':
-    friendly_name: 'toilet-presence '
-  '0xa4c1388e2c730e1b':
-    friendly_name: presence
   '0xcc86ecfffeb05501':
     friendly_name: curtain
-    invert_cover: false
+    invert_cover: true
+  '0x00124b0024ce5e4e':
+    friendly_name: button
+  '0x00124b0023b4d887':
+    friendly_name: room-pir
+  '0x00124b00250bf583':
+    friendly_name: door-pir
+  '0x847127fffe21af74':
+    friendly_name: balcony-pir
+  '0x943469fffec9539a':
+    friendly_name: toilet-presence
+  '0xa4c1388e2c730e1b':
+    friendly_name: room-presence
+  '0xcc86ecfffe4ea1cb':
+    friendly_name: internet-plug
+  '0xcc86ecfffef3c6fc':
+    friendly_name: wifi-plug
   '0x04cd15fffe23ec21':
     friendly_name: knob
-  '0xcc86ecfffe4ea1cb':
-    friendly_name: plug
-groups:
-  '1':
-    friendly_name: Ceiling
-    devices:
-      - 0xa4c13847a84f08cc/1
-      - 0xa4c138a9717c1b2c/1
-      - 0xa4c13837ea4b2800/1
-      - 0xa4c138b35e85b287/1
-      - 0xa4c13876ed9c7d3e/1
-      - 0xa4c1382fbff93ac4/1
